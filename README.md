@@ -2,7 +2,7 @@
 
 This project converts detailed NY Times [precinct-level election data](https://github.com/nytimes/presidential-precinct-map-2024) from a .topoJSON file to a lightweight R-tree spatial index, and saves it in a .json file. 
 
-It also provides a script to generate a GitHub Release that contains a link to the resulting output file. 
+It also provides a script to generate a GitHub Release that includes a link to the resulting output file, which will be of the form https://github.com/concerned-us-citizen/voting-precincts-spatial-index/releases/download/{tag-name}/precincts-with-results-spatial-index.json
 
 ## Background
 
@@ -17,6 +17,7 @@ To optimize this lookup process, a spatial index is pre-built. This index allows
 ```
 
 ## Create Release
+This will upload the file as a GitHub Release in this project with version tag-name.
 ```
   npm run upload -- <tag-name>
 ```
