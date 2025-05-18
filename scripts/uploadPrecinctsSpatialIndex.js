@@ -7,7 +7,7 @@ import mime from "mime-types";
 import dotenv from "dotenv";
 
 const owner = "concerned-us-citizen";
-const repo = "protest-map";
+const repo = "voting-precincts-spatial-index";
 
 dotenv.config();
 
